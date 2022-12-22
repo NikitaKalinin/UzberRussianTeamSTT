@@ -15,7 +15,7 @@ logging.basicConfig(
 
 
 def parse_args() -> None:
-    parser = ArgumentParser(description="Hard Classifier.")
+    parser = ArgumentParser(description="UzberRusTeamSTT Bot.")
     parser.add_argument("--stt_api_key", required=True, help="stt api key")
     parser.add_argument("--stt_secret_key", required=True, help="stt secret key")
     parser.add_argument("--bot_token", required=True, help="bot token")
